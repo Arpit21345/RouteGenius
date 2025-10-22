@@ -1,0 +1,173 @@
+.itinerary-results {
+  padding: 2rem 0 4rem;
+  min-height: calc(100vh - 80px);
+}
+
+.results-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.results-header h1 {
+  margin-bottom: 0.5rem;
+}
+
+.trip-meta {
+  font-size: 1.1rem;
+  color: var(--medium-gray);
+}
+
+.itinerary-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.day-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.day-card {
+  background-color: var(--white);
+  border: 2px solid var(--black);
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+.day-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.day-card h2 {
+  margin: 0;
+  color: var(--primary-blue);
+}
+
+.weather-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--light-gray);
+  border-radius: 8px;
+}
+
+.weather-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.weather-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.temperature {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--black);
+}
+
+.weather-desc {
+  font-size: 0.85rem;
+  color: var(--medium-gray);
+  text-transform: capitalize;
+}
+
+.activities {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.activity {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem;
+  border-left: 4px solid var(--primary-blue);
+  background-color: var(--light-gray);
+  border-radius: 8px;
+}
+
+.activity-time {
+  font-weight: 700;
+  color: var(--primary-blue);
+  min-width: 80px;
+}
+
+.activity-details {
+  flex: 1;
+}
+
+.activity-details h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.activity-details p {
+  color: var(--medium-gray);
+  margin-bottom: 0.5rem;
+}
+
+.cost {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background-color: var(--white);
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.tips {
+  margin-top: 0.75rem;
+  padding: 0.75rem;
+  background-color: rgba(30, 144, 255, 0.1);
+  border-radius: 6px;
+  font-size: 0.9rem;
+  color: var(--dark-blue);
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.action-buttons .btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .day-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .weather-info {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .activity {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .activity-time {
+    min-width: auto;
+  }
+  
+  .action-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
