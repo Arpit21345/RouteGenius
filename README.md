@@ -281,21 +281,3 @@ taskkill /PID <PID> /F
 # Linux/Mac
 lsof -ti:5000 | xargs kill -9
 ```
-
-## 🤝 Contributing
-
-This is an internship assignment project. Feedback and suggestions are welcome!
-
-## 📄 License
-
-MIT License - feel free to use this project for learning purposes.
-
-## 👨‍💻 Author
-
-Created as an internship assignment for GradGuide
-
----
-
-**Submission Date**: October 25, 2025  
-**Assignment**: AI Travel Guide - Personalized Tour Planner  
-**Contact**: hardik.s@gradguide.in
