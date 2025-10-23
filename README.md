@@ -1,5 +1,8 @@
 # RouteGenius - AI Travel Itinerary Planner
 
+
+<img width="1900" height="949" alt="Screenshot 2025-10-23 170555" src="https://github.com/user-attachments/assets/88545b25-98b5-4bfc-bcf1-e8541dd62e67" />
+
 An intelligent travel planning application that generates personalized day-by-day itineraries using Google's Gemini AI. The system analyzes user preferences, budget constraints, travel dates, and group composition to create detailed travel plans with real-time weather forecasts.
 
 ## Features
@@ -42,7 +45,13 @@ An intelligent travel planning application that generates personalized day-by-da
 
 ### External APIs
 - **Google Gemini API** (gemini-1.5-flash model)
+  <img width="1893" height="948" alt="Screenshot 2025-10-23 170627" src="https://github.com/user-attachments/assets/7172e1a5-7bfe-43a9-9937-b0a88de7a8e9" />
+
 - **OpenWeatherMap API** (Forecast API v2.5)
+<img width="1909" height="951" alt="Screenshot 2025-10-23 170642" src="https://github.com/user-attachments/assets/fbd74db4-3379-40e2-93b7-7960a1811f77" />
+
+- **Chain of thought**
+<img width="1889" height="946" alt="Screenshot 2025-10-23 170811" src="https://github.com/user-attachments/assets/ea5d8b4f-5ff9-42af-a72f-8902f6bfb21f" />
 
 ## Project Structure
 
